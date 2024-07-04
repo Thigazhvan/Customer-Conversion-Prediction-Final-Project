@@ -1,0 +1,63 @@
+Customer Conversion Prediction Project by Thigazhvan
+
+Problem statement:
+
+You are working for a new-age insurance company and employ mutiple outreach plans to sell term insurance to your customers. 
+Telephonic marketing campaigns still remain one of the most effective way to reach out to people however they incur a lot of cost. Hence, it is important to identify the customers that are most likely to convert beforehand so that they can be specifically targeted via call. We are given the historical marketing data of the insurance company and are required to build a ML model that will predict if a client will subscribe to the insurance.
+
+
+Feature and Target variable Description:
+
+1.age (numeric)
+
+2.job : type of job
+
+3.marital : marital status
+
+4.educational_qual : education status
+
+5.call_type : contact communication type
+
+6.day: last contact day of the month (numeric)
+
+7.mon: last contact month of year
+
+8.dur: last contact duration, in seconds (numeric)
+
+9.num_calls: number of contacts performed during this campaign and for this client
+
+10.prev_outcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
+
+11.Output variable (desired target): y - has the client subscribed to the insurance?
+
+Basic details about the Dataset:
+
+-->Supervised Lesrning Problem
+-->Classification(based on Target Variable)
+
+-->From the Target variable we can consider it is a Binary classification problem, 
+
+-->Here,we are required to build a ML model that will predict if a client will subscribe to the insurance.
+
+steps involved in the project:
+
+1.clean the data
+2.Exploratory data analysis of the data
+3.Encode the data
+4.spliting the data
+5.Balancing the data
+6.scaling the data
+7.fit the model(predict using Ml algorithm of clasification)
+8.feature_importance
+
+Conclusion:
+
+Based on the Feature Importance given by best machine Learning that will predict if a client subscribed to the insurance.
+
+The client should focused on the top few features of order given below to have them subscribed to the insurance.
+
+ Duration - Longer the call better influncing the clients
+ Age - Age of the person plays an important role in insurance. Middle age people are targeted more and people who suscribed to insurance also middle age people.(40-41)
+ Day - People who subscribed to insurance are mostly mid(after 15th) of the month.
+ Month - In the month of march people subscribed to insurance are more.
+ Job - In this blue collar people are targeted more but people who subscribed more are from students.
